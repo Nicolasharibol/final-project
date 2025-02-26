@@ -25,18 +25,59 @@ The Data set was generated using the following logic:
 9. No personally identifiable information (PII) is included to maintan privacy.
 
 
-- Plan for the next 10 days
+----> Plan for the next 10 days
 
-Day 1 & 2: Project Setup and Data collection
+- Day 1: Define Projects's Topic, Project Business Case, Project Objective and Initial Dataset exploration.  
 
-Day 3 & 4: Data cleaning and Prepocessing
+- Day 2: Data Wrangling and Cleaning
 
-Day 5: Exploratory Data Analysis (EDA)
+Cleaning: Address missing values: Explain or drop where necessary. Convert, Tranform, Group data types as needed for analysis.
+Wrangling: Remove duplicates and irrelevant features. Correct any inconsistencies within the data, such as misaligned columns or incorrect entries.
 
-Day 6: Model Selection and Training
+(Deliverable: Clean dataset ready for analysis)
 
-Day 7 & 8: Model Evaluation and Validation
 
-Day 9: Visualization and Interpretation
+- Day 3: Exploratory Data Analysis (EDA)
 
-Day 10: Presentation   
+Descriptive Statistics: Use descriptive statistics to understand distributions, outliers, and key statistics.
+Visual Analysis: Create visualizations (histograms, scatter plots, box plots) to identify patterns, trends, and correlations among features.
+
+(Deliverable: EDA report with significant findings and potential features of interest)
+
+
+- Day 4: Feature Engineering and Selection
+
+Feature Engineering: Create new features from the existing dataset if needed, such as aggregated metrics or normalized features.
+Feature Selection: Use correlation matrices or machine learning techniques to select the most impactful features for modeling.
+
+(Deliverable: Refined feature set for modeling)
+
+- Day 5: Preprocessing and Normalization 
+
+Normalization: Normalize/standardize features to prepare them for training.
+Encoding: Convert categorical data into dummy variables if necessary.
+
+(Deliverable: Preprocessed data ready for models)
+
+- Day 6: Model Selection and Training (Deliverable: Set of trained models with initial performance metrics)
+
+Baseline Model: Start with a baseline model (e.g., Linear Regression or Decision Tree) to understand performance.
+Advanced Models: Train multiple models, such as Random Forest, XGBoost, or Neural Networks for better accuracy.
+
+(Deliverable: Set of trained models with initial performance metrics)
+
+- Day 7: Model Evaluation and Tuning 
+
+Model Evaluation: Use cross-validation to evaluate model robustness.
+Tuning and Enhancement: Tune hyperparameters for best-performing models and perform oversampling if necessary to address imbalanced datasets.
+
+(Deliverable: Finalized model with evaluation metrics (accuracy, precision, recall, F1)
+
+- Day 8: Visualization and Presentation 
+
+Result Visualization: Plot prediction results and key metrics.
+Insight Reporting: Summarize insights, predicted trends, and actionable recommendations generated from the model.
+Documentation: Compile comprehensive project documentation covering objectives, methods, analysis, results, and conclusions.
+
+(Deliverable: Final report and presentation of model insights and findings)
+
