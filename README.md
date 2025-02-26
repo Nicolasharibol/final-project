@@ -10,7 +10,7 @@ Objective: The central aim is to leverage data to make informed predictions abou
 
 This Dataset is synthetically generated to simulate real-world student performance and learning habits. The Data was created using Python and the Numpy and Pandas libraries to model realistic distributions of students behaviors, studdy patterns, and academic performance. 
 
-Data Generationn process
+Data Generation process
 
 The Data set was generated using the following logic:
 1. Demographics: Randomly Assigned ages (19-30 years) and gender distribution (Male, Female, other)
@@ -20,9 +20,10 @@ The Data set was generated using the following logic:
 5. Behavioral factors: Time spent on social medi (0-30 hours per week), self reported stress level (Low, Medium, High), and sleep hours per night (4-10 hours).
 6. Final grades: Assigned based on exam scores an A-F grading scores.
 
-7. Transformation and Considerations
-8. The Dataset follows realistic probability distributions to simulate real-world trends.
-9. No personally identifiable information (PII) is included to maintan privacy.
+Transformation and Considerations
+
+The Dataset follows realistic probability distributions to simulate real-world trends.
+No personally identifiable information (PII) is included to maintan privacy.
 
 
 ----> Plan for the next 10 days
