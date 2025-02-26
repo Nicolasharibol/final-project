@@ -24,6 +24,7 @@ The Data set was generated using the following logic:
 8. The Dataset follows realistic probability distributions to simulate real-world trends.
 9. No personally identifiable information (PII) is included to maintan privacy.
 
+
 - Plan for the next 10 days
 
 Day 1 & 2: Project Setup and Data collection
