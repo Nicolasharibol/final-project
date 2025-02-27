@@ -30,6 +30,7 @@ No personally identifiable information (PII) is included to maintan privacy.
 
 - Day 1: Define Projects's Topic, Project Business Case, Project Objective and Initial Dataset exploration.  
 
+
 - Day 2: Data Wrangling and Cleaning
 
 Cleaning: Address missing values: Explain or drop where necessary. Convert, Tranform, Group data types as needed for analysis.
