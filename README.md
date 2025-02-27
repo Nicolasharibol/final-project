@@ -34,6 +34,7 @@ No personally identifiable information (PII) is included to maintan privacy.
 - Day 2: Data Wrangling and Cleaning
 
 Cleaning: Address missing values: Explain or drop where necessary. Convert, Tranform, Group data types as needed for analysis.
+
 Wrangling: Remove duplicates and irrelevant features. Correct any inconsistencies within the data, such as misaligned columns or incorrect entries.
 
 (Deliverable: Clean dataset ready for analysis)
