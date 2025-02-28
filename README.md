@@ -17,7 +17,7 @@ The Data set was generated using the following logic:
 2. Study Habits: Study hours per week (5-50 hours) and preferred learning styles (Visual, Auditory, Reading/Writing, Kinesthetic)
 3. Online Learning and Participation: Number of online courses completed (0-20) and discussion participation (Yes/No)
 4. Performance Metrics: Assignment completion rates, attendance percentages, and exam scores, all generated within a logic range.
-5. Behavioral factors: Time spent on social medi (0-30 hours per week), self reported stress level (Low, Medium, High), and sleep hours per night (4-10 hours).
+5. Behavioral factors: Time spent on social media (0-30 hours per week), self reported stress level (Low, Medium, High), and sleep hours per night (4-10 hours).
 6. Final grades: Assigned based on exam scores an A-F grading scores.
 
 Transformation and Considerations
