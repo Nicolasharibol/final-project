@@ -1,29 +1,18 @@
 - Team: Nicolás Muñoz
 
-- Topic: Student performance and learning styles.
+- Topic: NYC AirBnB data exploration to build a machine learning model.
 
-- Business case: Predicting student performance. 
+- Business case:
 
-Objective: The central aim is to leverage data to make informed predictions about student outcomes. This can then guide interventions designed to enhance academic success and foster better educational environments.
+Objective: Use the Airbnb dataset to predict rental prices and identify factors influencing prices. Explore host characteristics, geographical features, and market trends to understand princing dynamics. 
 
-- Data sources: kaggle.com
+Goal: Predict the price of Airbnb listings based on its features and provide actionable insights for hosts or investors to optimize their listings. 
 
-This Dataset is synthetically generated to simulate real-world student performance and learning habits. The Data was created using Python and the Numpy and Pandas libraries to model realistic distributions of students behaviors, studdy patterns, and academic performance. 
+- Data Information:
 
-Data Generation process
+Data sources: kaggle.com, insideairbnb.com.
 
-The Data set was generated using the following logic:
-1. Demographics: Randomly Assigned ages (19-30 years) and gender distribution (Male, Female, other)
-2. Study Habits: Study hours per week (5-50 hours) and preferred learning styles (Visual, Auditory, Reading/Writing, Kinesthetic)
-3. Online Learning and Participation: Number of online courses completed (0-20) and discussion participation (Yes/No)
-4. Performance Metrics: Assignment completion rates, attendance percentages, and exam scores, all generated within a logic range.
-5. Behavioral factors: Time spent on social media (0-30 hours per week), self reported stress level (Low, Medium, High), and sleep hours per night (4-10 hours).
-6. Final grades: Assigned based on exam scores an A-F grading scores.
-
-Transformation and Considerations
-
-The Dataset follows realistic probability distributions to simulate real-world trends.
-No personally identifiable information (PII) is included to maintan privacy.
+This dataset describes the listing activity and metrics in NYC for 2019 and includes all requiered information to find out more about hosts, geographical availability, necessary metrics to work on predictions and draw data-driven conclusiones. It contains 48895 rows and 16 columns. 
 
 
 ----> Plan for the next 10 days
@@ -43,6 +32,7 @@ Wrangling: Remove duplicates and irrelevant features. Correct any inconsistencie
 - Day 3: Exploratory Data Analysis (EDA)
 
 Descriptive Statistics: Use descriptive statistics to understand distributions, outliers, and key statistics.
+
 Visual Analysis: Create visualizations (histograms, scatter plots, box plots) to identify patterns, trends, and correlations among features.
 
 (Deliverable: EDA report with significant findings and potential features of interest)
@@ -51,6 +41,7 @@ Visual Analysis: Create visualizations (histograms, scatter plots, box plots) to
 - Day 4: Feature Engineering and Selection
 
 Feature Engineering: Create new features from the existing dataset if needed, such as aggregated metrics or normalized features.
+
 Feature Selection: Use correlation matrices or machine learning techniques to select the most impactful features for modeling.
 
 (Deliverable: Refined feature set for modeling)
@@ -58,6 +49,7 @@ Feature Selection: Use correlation matrices or machine learning techniques to se
 - Day 5: Preprocessing and Normalization 
 
 Normalization: Normalize/standardize features to prepare them for training.
+
 Encoding: Convert categorical data into dummy variables if necessary.
 
 (Deliverable: Preprocessed data ready for models)
@@ -65,13 +57,15 @@ Encoding: Convert categorical data into dummy variables if necessary.
 - Day 6: Model Selection and Training (Deliverable: Set of trained models with initial performance metrics)
 
 Baseline Model: Start with a baseline model (e.g., Linear Regression or Decision Tree) to understand performance.
-Advanced Models: Train multiple models, such as Random Forest, XGBoost, or Neural Networks for better accuracy.
+
+Advanced Models: Train multiple models, such as Random Forest, AdaBoost for better accuracy.
 
 (Deliverable: Set of trained models with initial performance metrics)
 
 - Day 7: Model Evaluation and Tuning 
 
 Model Evaluation: Use cross-validation to evaluate model robustness.
+
 Tuning and Enhancement: Tune hyperparameters for best-performing models and perform oversampling if necessary to address imbalanced datasets.
 
 (Deliverable: Finalized model with evaluation metrics (accuracy, precision, recall, F1)
