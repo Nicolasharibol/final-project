@@ -78,3 +78,5 @@ Documentation: Compile comprehensive project documentation covering objectives, 
 
 (Deliverable: Final report and presentation of model insights and findings)
 
+
+link for presentation: https://tinyurl.com/2p9mmc54
